@@ -1,4 +1,4 @@
-# ESP32 BLE Counter
+# ESP32 Sky Tracker
 
 This project uses an ESP32 to count recycables from two IR sensors and advertise the counts via Bluetooth Low Energy (BLE). The ESP32 acts as a BLE server, allowing a mobile phone to connect and read the counts.
 
@@ -38,7 +38,7 @@ This project uses an ESP32 to count recycables from two IR sensors and advertise
 1. Power on the ESP32.
 2. Use a BLE-enabled mobile app (like nRF Connect) to scan for devices.
 3. Connect to the device named "eTracker_esp32".
-4. Read the characteristic to see the current counts for `can` and `bottle`.
+4. Read the characteristic to see the current counts for `can` and `plastic`.
 
 ## Code Explanation
 
